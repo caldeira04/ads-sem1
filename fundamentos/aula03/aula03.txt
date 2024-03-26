@@ -1,0 +1,24 @@
+1.
+a) F -> F = V
+b) V -> F = F
+c) F -> V = V
+d) (F ^ V) -> F || F -> F = V
+
+2.
+a) p -> F = F || V -> F = F // p = V
+b) p <-> V = F || F <-> V = F // p = F
+c) F <-> p = V || F <-> F = V // p = F
+
+3.
+a) p -> q = V || p v q = F
+    F -> F = V || F v F = F
+
+b) p <-> q = V || p ^ q = V 
+    V <-> V = V || V ^ V = V 
+
+c) p <-> q = V || p v q = V 
+    V <-> V = V || V v V = V 
+
+d) p <-> q = F || -p v q = V 
+    F <-> V = F || V v V = V
+
