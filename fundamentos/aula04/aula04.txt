@@ -1,0 +1,45 @@
+1.
+a) Hoje não é segunda-feira
+b) Há poluição em Pelotas
+c) 2 + 1 != 3
+d) O verão em Cuiabá não é quente ou não é ensolarado
+
+2.
+a) Não foram descobertos tubarões na praia
+b) Nadar no cassino é permitido e foram descobertos tubarões na praia
+c) Não é permitido nadar no cassino ou foram descobertos tubarões na praia
+d) Se nadar no cassino é permitido, então não foram descobertos tubarões na praia
+e) Se não foram descobertos tubarões na praia, então nadar no cassino é permitido
+f) Se não é permitido nadar no cassino, então foram descobertos tubarões na praia
+g) Nadar no Cassino é permitido se, e somente se, não foram descobertos tubarões na praia
+h) Não é permitido nadar no cassino e nadar no cassino é permitido ou não foram descobertos tubarões na praia
+
+3.
+a) p ^ q 
+b) p ^ ~q
+c) ~p ^ ~q 
+d) q v p
+e) p -> q
+f) (p v q) ^ (~q -> p)
+g) q <-> p 
+
+4.
+4.1 = a
+4.2 = b
+4.3 = b
+
+5.
+5.1 = d 
+5.2 = c 
+5.3 = a
+5.4 = e
+5.5 = c 
+
+6.
+a) V ^ (F v V) || V ^ V = V 
+b) (V ^ F) -> V || F -> F = V 
+c) ~(V v F) v V || ~V v V || F v V = V 
+d) V v (F -> V) || V v V = V 
+e) ~V v (~F ^ ~V) || F v (V ^ F) || F v F = F 
+
+7. excel
