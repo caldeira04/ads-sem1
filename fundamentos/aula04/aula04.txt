@@ -12,7 +12,7 @@ d) Se nadar no cassino é permitido, então não foram descobertos tubarões na 
 e) Se não foram descobertos tubarões na praia, então nadar no cassino é permitido
 f) Se não é permitido nadar no cassino, então foram descobertos tubarões na praia
 g) Nadar no Cassino é permitido se, e somente se, não foram descobertos tubarões na praia
-h) Não é permitido nadar no cassino e nadar no cassino é permitido ou não foram descobertos tubarões na praia
+h) Não é permitido nadar no cassino e, nadar no cassino é permitido ou não foram descobertos tubarões na praia
 
 3.
 a) p ^ q 
