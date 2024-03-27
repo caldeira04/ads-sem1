@@ -7,4 +7,4 @@ const toPay = Math.ceil(exitTime - enterTime)
 const toEarn = toPay * value
 
 console.log(`Tempo cobrado: ${toPay} horas`)
-console.log(`Valor a pagar: R$ ${toEarn},00`)
+console.log(`Valor a pagar: R$ ${toEarn.toFixed(2)}`)
