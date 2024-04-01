@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: #E1EDF2;
+    color: #3D3D3D;
+    padding: 10px;
+}
+
+h2 {
+    border-bottom: #000000 solid;
+}
+
+figure {
+    margin: auto;
+    padding: 15px;
+    background-color: whitesmoke;
+    margin: 30px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+main {
+    width: 940px;
+    margin: auto;
+}
+
+div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
