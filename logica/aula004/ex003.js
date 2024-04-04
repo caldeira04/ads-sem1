@@ -5,7 +5,7 @@ const price = Number(prompt("Preço: R$ "))
 let discount
 let finalPrice
 
-if (make == "Fiat") {
+if (make.toUpperCase() == "FIAT") {
     discount = 0.10 * price
     finalPrice = price - discount
     console.log(`Desconto: R$ ${discount.toFixed(2)}`)
