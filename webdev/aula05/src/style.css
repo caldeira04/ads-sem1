@@ -81,8 +81,14 @@ main h2 {
     line-height: 100px
 }
 
-div a {
-    display: flex;
-    justify-content: end;
-    
+.botao {
+    text-align: end;
+
+}
+
+.botao a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border: 2px black solid;
 }
