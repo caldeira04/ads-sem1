@@ -3,50 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
     <title>As melhores lasanhas para se ter no Brasil</title>
 </head>
 <body>
-    <h1>As melhores lasanhas para se ter no Brasil!</h1>
-    <h2>O que é uma lasanha?</h2>
-    <p>Lasanha pode ser definido como todo e qualquer carro véio, acabado, cheio de problemas, mas que você olha e diz: "Hummm isso ficaria lindo na minha garagem..."</p>
-    <p>Por isso, hoje estamos reunindo uma listagem das melhores (ou piores) lasanhas para se ter a (in)felicidade de ser dono no Brasil!</p>
-
-    <div>
-        <ol>
-            <li>
-                <h3>Chevrolet Chevette</h3>
-                <p>Favorito da gurizada mais nova, o sonho do Chevette turbinado já passou na cabeça de praticamente todos nós em algum momento. O carro que tem valorizado muito nos últimos anos devido a sua alta procura, foi fabricado pela GM no Brasil de 1973 a 1995.</p>
-                <p>Tração traseira, é o carro de projeto perfeito para quem busca se divertir no fim de semana saindo de lado nas curvas e nas rótulas. De baixo custo de manutenção, fácil customização e diversas opções para escolher.</p>
-                <img src="src/chevette.jpg" alt="O primeiro modelo de Chevette anunciado no Brasil" width="400px">
-            </li>
-            <li>
-                <h3>Ford Maverick</h3>
-                <p>Pioneiro dos muscle-cars brasileiros, o Maverick (o antigo, a versão boa) foi fabricada de 1973 a 1979 e contava com motores 4I, 6I e V8, com litragens consideradas absurdas hoje em dia.</p>
-                <p>Não tão popular quanto o Chevette, é um carro pra quem gosta de chamar atenção por onde passa. Reúne fãs até os dias atuais, principalmente pelo famoso v-oitão exclusivo da Ford. Possui alto custo de manutenção e valorizou muito nos últimos anos.</p>
-                <img src="src/maverick.jpeg" alt="Ford Maverick, edição de colecionador" width="400px">
-            </li>
-            <li>
-                <h3>BMW E36</h3>
-                <p>Uma das primeiras gerações da gigante alemã a vir oficialmente para o Brasil, as BMW E36 (também conhecidas carinhosamnete como resto de rico) são carros que nunca desvalorizaram. Apesar de já estarem em seus 30 anos, os modelos mais luxuosos da Series 3 podem ser encontrados acima de 50 mil reais.</p>
-                <p>Possuem manutenção cara, poucas peças no Brasil e difícil reposição, mas são de longe os carros mais luxuosos de "baixo custo" da sua época, além de também contar com tração traseira e modelos com motores 1.8, 2.0, 2.3, 2.5 e 2.8, em 4 ou 6 cilindros em linha.</p>
-                <img src="src/e36.jpg" alt="BMW 325i 1995" width="400px">
-            </li>
-            <li>
-                <h3>Volkswagen Fusca</h3>
-                <p>Desenvolvido na Alemanha no período da segunda guerra mundial e produzido de 1938 a 2003, foi o carro mais vendido no mundo. Querido por muitos no Brasil por sua silhueta única e características exclusivas que ainda hoje são difíceis de se encontrar.</p>
-                <p>Embora haja muitos exemplares deste carro hoje em dia, achar um em boa condição e estado de conservação pode ser um desafio e tanto.</p>
-                <p>Em 1997, foi relançada uma nova versão do Fusca, o New Beetle. Este, porém, não chegou nem perto de ter a mesma atenção que seu irmão mais velho, sendo descontinuado após poucos anos, em 2011.</p>
-                <img src="src/fusca.jpg" alt="Volkswagen Fusca" width="400px">
-            </li>
-            <li>
-                <h3>Menção honrosa: Mazda Miata</h3>
-                <p>Por viés do editor, o modelo japonês não podia faltar. Vendido por um curtíssimo período de tempo pela Mazda no Brasil, encontrar um a venda hoje é extremamente raro e normalmente em valores exorbitantes (entre 100 e 150 mil).</p>
-                <p>Este carro, porém, é considerado um dos mais divertidos do mundo, e também possui sua silhueta única, principalmente nas gerações mais antigas que possuíam faróis escamoteáveis.</p>
-                <p>Embora seu motor não tenha grandes potências nem torque, o carro possui uma dirigibilidade impecável, além de ser conversível e tração traseira, o que pode proporcionar muita diversão principalmente em dias chuvosos.</p>
-                <img src="src/miata.jpg" alt="Mazda Miata de primeira geração (NA)" width="400px">
-            </li>
-        </ol>
+    <header>
+        <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Saiba mais</a></li>
+            <li><a href="#">Entre/Cadastre-se</a></li>
+        </ul>
+    </header>
+    
+    <div id="centro">
+        <h1>As melhores lasanhas para se ter no Brasil!</h1>
+        
+        <h2>O que é uma lasanha?</h2>
+        
+        <p>Lasanha pode ser definido como todo e qualquer carro véio, acabado, cheio de problemas, mas que você olha e diz: <br> "Hummm isso ficaria lindo na minha
+        garagem..."</p>
+        
+        <p>Por isso, hoje estamos reunindo uma listagem das melhores (ou piores) lasanhas para ter a (in)felicidade de ser dono no Brasil!</p>
     </div>
+
+       <article class="artigo">
+           
+           <ul>
+               <li class="carros">
+                   <h3>Chevrolet Chevette</h3>
+                   <p>Favorito da gurizada mais nova, o sonho do Chevette turbinado já passou na cabeça de praticamente todos nós em algum momento. O carro que tem valorizado muito nos últimos anos devido a sua alta procura, foi fabricado pela GM no Brasil de 1973 a 1995.</p>
+                   <p>Tração traseira, é o carro de projeto perfeito para quem busca se divertir no fim de semana saindo de lado nas curvas e nas rótulas. De baixo custo de manutenção, fácil customização e diversas opções para escolher.</p>
+                   <img src="img/chevette.jpg" alt="O primeiro modelo de Chevette anunciado no Brasil">
+               </li>
+               <li class="carros">
+                   <h3>Ford Maverick</h3>
+                   <p>Pioneiro dos muscle-cars brasileiros, o Maverick (o antigo, a versão boa) foi fabricada de 1973 a 1979 e contava com motores 4I, 6I e V8, com litragens consideradas absurdas hoje em dia.</p>
+                   <p>Não tão popular quanto o Chevette, é um carro pra quem gosta de chamar atenção por onde passa. Reúne fãs até os dias atuais, principalmente pelo famoso v-oitão exclusivo da Ford. Possui alto custo de manutenção e valorizou muito nos últimos anos.</p>
+                   <img src="img/maverick.jpeg" alt="Ford Maverick, edição de colecionador">
+               </li>
+               <li class="carros">
+                   <h3>BMW E36</h3>
+                   <p>Uma das primeiras gerações da gigante alemã a vir oficialmente para o Brasil, as BMW E36 (também conhecidas carinhosamnete como resto de rico) são carros que nunca desvalorizaram. Apesar de já estarem em seus 30 anos, os modelos mais luxuosos da Series 3 podem ser encontrados acima de 50 mil reais.</p>
+                   <p>Possuem manutenção cara, poucas peças no Brasil e difícil reposição, mas são de longe os carros mais luxuosos de "baixo custo" da sua época, além de também contar com tração traseira e modelos com motores 1.8, 2.0, 2.3, 2.5 e 2.8, em 4 ou 6 cilindros em linha.</p>
+                   <img src="img/e36.jpg" alt="BMW 325i 1995">
+               </li>
+               <li class="carros">
+                   <h3>Volkswagen Fusca</h3>
+                   <p>Desenvolvido na Alemanha no período da segunda guerra mundial e produzido de 1938 a 2003, foi o carro mais vendido no mundo. Querido por muitos no Brasil por sua silhueta única e características exclusivas que ainda hoje são difíceis de se encontrar.</p>
+                   <p>Embora haja muitos exemplares deste carro hoje em dia, achar um em boa condição e estado de conservação pode ser um desafio e tanto.</p>
+                   <p>Em 1997, foi relançada uma nova versão do Fusca, o New Beetle. Este, porém, não chegou nem perto de ter a mesma atenção que seu irmão mais velho, sendo descontinuado após poucos anos, em 2011.</p>
+                   <img src="img/fusca.jpg" alt="Volkswagen Fusca">
+               </li>
+               <li class="carros">
+                   <h3>Menção honrosa: Mazda Miata</h3>
+                   <p>Por viés do editor, o modelo japonês não podia faltar. Vendido por um curtíssimo período de tempo pela Mazda no Brasil, encontrar um a venda hoje é extremamente raro e normalmente em valores exorbitantes (entre 100 e 150 mil).</p>
+                   <p>Este carro, porém, é considerado um dos mais divertidos do mundo, e também possui sua silhueta única, principalmente nas gerações mais antigas que possuíam faróis escamoteáveis.</p>
+                   <p>Embora seu motor não tenha grandes potências nem torque, o carro possui uma dirigibilidade impecável, além de ser conversível e tração traseira, o que pode proporcionar muita diversão principalmente em dias chuvosos.</p>
+                   <img src="img/miata.jpg" alt="Mazda Miata de primeira geração (NA)">
+               </li>
+           </ul>
+        </article>
+        
+        <footer>&copy; 2024 Luana Amaral e João Pedro Caldeira </footer>
+       
 </body>
 </html>
