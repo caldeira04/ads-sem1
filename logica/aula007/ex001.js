@@ -3,7 +3,7 @@ const prompt = require("prompt-sync")()
 const product = prompt("Produto: ")
 const price = prompt("Preço: R$ ")
 
-console.log("Opções de Pagamento")
+console.log(`Opções de Pagamento para o ${product}`)
 console.log("-------------------")
 
 for (let i = 1; i <= 10; i++){

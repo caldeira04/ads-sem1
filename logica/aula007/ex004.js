@@ -4,7 +4,7 @@ let num = Number(prompt("Número: "))
 console.log("Contagem Regressiva")
 
 for (let i = num; i > 0; i--){
-    console.log(num--)
+    console.log(i)
 }
 
 console.log("Fogo!")
