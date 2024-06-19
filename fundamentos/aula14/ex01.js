@@ -6,7 +6,6 @@ const workYear = Number(prompt("E que ano você começou a trabalhar?"))
 const age = 2024 - year
 const workTime = 2024 - workYear
 
-
 console.log(`Idade: ${age};`)
 console.log(`Tempo de serviço: ${workTime}`)
 if ((age >= 60 || workTime >= 25) || age >= 55 && workTime >= 20) {
