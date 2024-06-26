@@ -66,6 +66,7 @@ function searchFilter() {
 	for (let i = 0; i < courts.length; i++) {
 		if (filter === 1) {
 
+
 		} else if (filter === 2) {
 
 		} else if (filter === 3) {
