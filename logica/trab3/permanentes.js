@@ -100,6 +100,24 @@ function searchFilter() {
 }
 
 function change() {
+	console.log("Qual quadra você deseja remover?")
+	for (let i = 1; i < courts.length; i++) {
+		console.log(`${i}. Esporte: ${courts[i].sport}, Horário: ${courts[i].time}, Quadra: ${courts[i].num}`)
+	}
+	const criteria = Number(prompt("Digite o ID da quadra que deseja alterar: "))
+	if (criteria > 0 && courts.length) {
+		let x, y, z
+		x = prompt(`Esporte atual é ${courts[criteria].sport}. Novo esporte: `)
+		y = prompt(`Horário atual é ${courts[criteria].time}. Novo horário: `)
+		z = prompt(`Quadra atual é ${courts[criteria].num}. Nova quadra: `)
+		courts[criteria] = {
+			sport: x || courts[criteria].sport,
+			time: y || courts[criteria].time,
+			num: z || courts[criteria].num,
+
+		}
+
+	}
 
 }
 
@@ -109,6 +127,13 @@ function remove() {
 		console.log(`${i}. Esporte: ${courts[i].sport}, Horário: ${courts[i].time}, Quadra: ${courts[i].num}`)
 	}
 	const criteria = prompt("Digite o id da quadra que deseja remover: ")
+	if (criteria > 0 && criteria < courts.length) {
+		courts.splice(criteria, 1)
+		console.log("Horário removido com sucesso!")
+		console.log("-".repeat(40))
+	} else {
+		console.log("ID inválido.")
+	}
 
 }
 
