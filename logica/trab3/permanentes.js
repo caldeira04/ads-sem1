@@ -56,23 +56,60 @@ function search() {
 }
 
 function searchFilter() {
-	let criteria
-	let found = false
+	let found = false;
 	console.log("Escolha uma opção:")
 	console.log("1. Pesquisar por esporte")
 	console.log("2. Pesquisar por horário")
 	console.log("3. Pesquisar por número da quadra")
 	const filter = prompt("Escolha uma opção para pesquisar ")
-	for (let i = 0; i < courts.length; i++) {
-		if (filter === 1) {
+	if (filter == 1) {
+		const filterSport = prompt("Qual o esporte desejado? (padel/beach) ")
+		console.log(`Mostrando resultados para o esporte escolhido.`)
+		console.log("-".repeat(40))
+		for (let i = 0; i < courts.length; i++) {
+			if (courts[i].sport == filterSport) {
+				console.log(`Esporte: ${courts[i].sport}, Horário: ${courts[i].time}, Quadra: ${courts[i].num}`)
+				found = true
+			}
+		}
 
-
-		} else if (filter === 2) {
-
-		} else if (filter === 3) {
-
+	} else if (filter == 2) {
+		const filterTime = prompt("Qual o horario desejado? (apenas números)")
+		console.log("Mostrando resultados para o horário escolhido.")
+		console.log("-".repeat(40))
+		for (let i = 0; i < courts.length; i++) {
+			if (courts[i].time == filterTime) {
+				console.log(`Esporte: ${courts[i].sport}, Horário: ${courts[i].time}, Quadra: ${courts[i].num}`)
+				found = true
+			}
+		}
+	} else if (filter == 3) {
+		const filterCourt = prompt("Qual o número da quadra desejada? (apenas números)")
+		console.log("Mostrando resultados para a quadra escolhida.")
+		console.log("-".repeat(40))
+		for (let i = 0; i < courts.length; i++) {
+			if (courts[i].num == filterCourt) {
+				console.log(`Esporte: ${courts[i].sport}, Horário: ${courts[i].time}, Quadra: ${courts[i].num}`)
+				found = true
+			}
 		}
 	}
+	if (!found) {
+		console.log("O sistema não conseguiu encontrar quadras com o filtro selecionado.")
+	}
+}
+
+function change() {
+
+}
+
+function remove() {
+	console.log("Qual quadra você deseja remover?")
+	for (let i = 1; i < courts.length; i++) {
+		console.log(`${i}. Esporte: ${courts[i].sport}, Horário: ${courts[i].time}, Quadra: ${courts[i].num}`)
+	}
+	const criteria = prompt("Digite o id da quadra que deseja remover: ")
+
 }
 
 loadCourts()
