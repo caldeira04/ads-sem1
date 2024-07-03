@@ -100,7 +100,7 @@ function searchFilter() {
 }
 
 function change() {
-	console.log("Qual quadra você deseja remover?")
+	console.log("Qual quadra você deseja alterar? ")
 	for (let i = 1; i < courts.length; i++) {
 		console.log(`${i}. Esporte: ${courts[i].sport}, Horário: ${courts[i].time}, Quadra: ${courts[i].num}`)
 	}
