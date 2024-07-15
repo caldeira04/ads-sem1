@@ -1,0 +1,180 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background: #2F2B33;
+}
+
+header {
+    padding: 1.6rem 2.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo img {
+    width: 4.9375rem;
+    height: 4.9375rem;
+}
+
+header .logo h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header nav {
+    background: rgba(140, 0, 240, 0.50);
+    border-radius: 1.875rem;
+    padding: 1.19rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.88rem;
+}
+
+header nav ul li {
+    background-color: #8C00F0;
+    padding: 0.5rem;
+    border-radius: 0.9375rem;
+    cursor: pointer;
+}
+
+header nav ul li a {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.search {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    /* Ajuste conforme necessário */
+}
+
+.search input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    padding-left: 2.5rem;
+    /* Espaço para o ícone */
+    border-radius: 0.9375rem;
+    border: none;
+    outline: none;
+    background: rgba(108, 108, 108, 0.50);
+    color: rgba(255, 255, 255, 0.38);
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.search::before {
+    content: '\1F50D';
+    /* Unicode para o ícone de lupa */
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.38);
+    font-size: 1.5rem;
+}
+
+.extrato__content {
+    width: 70%;
+    margin: 2.5rem auto 2rem auto;
+    border-radius: 0.3125rem;
+    border: 5px solid #8C00F0;
+    background: #0F0E10;
+    padding: 3.2rem 6.68rem;
+}
+
+.extrato__content input {
+    outline: none;
+    border: none;
+    border-radius: 0.9375rem;
+    background: rgba(108, 108, 108, 0.50);
+    padding: 0.5rem 3.5rem;
+    color: rgba(255, 255, 255, 0.38);
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.extrato__content .itens {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.extrato__content .itens .item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.extrato__content .itens .item .item__icon {
+    background-color: #6C6C6C;
+    border-radius: 100%;
+    padding: 0.7rem;
+}
+
+.extrato__content .itens .item .item__icon img {
+    width: 4.1875rem;
+}
+
+.extrato__content .itens .item .item__info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-left: 1.44rem;
+}
+
+.extrato__content .itens .item .item__info .item__info__left h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.extrato__content .itens .item .item__info .item__info__left p {
+    color: rgba(255, 36, 36, 0.60);
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.extrato__content .itens .item .item__info .item__info__right p {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

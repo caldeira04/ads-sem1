@@ -1,0 +1,82 @@
+@import url(/BankAI/css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    width: 1440px;
+    margin: auto;
+    background-color: #432b54;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.main__container {
+    height: 65vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 50px;
+    padding-right: 100px;
+    border-radius: 0 500px 500px 0px;
+    background-color: #6d5585;
+}
+
+.main__container p {
+    font-size: 36px;
+    color: #fff;
+    margin-right: auto;
+}
+
+.highlight {
+    color: #432b54;
+    font-weight: bolder;
+    font-size:150%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.button {
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+
+}   
+
+#b1 {
+    background-color: #fff;
+}
+
+#b2 {
+    background-color:#6d5585;
+    color: #fff;
+}
+
+#b1 a {
+    color: #8C00F0;
+    text-decoration: none;
+    font-size: 36px;
+    padding: 50px;
+}
+
+#b2 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 36px;
+    padding: 50px;
+}

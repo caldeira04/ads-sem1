@@ -1,0 +1,97 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background: #2F2B33;
+}
+
+header {
+    padding: 1.6rem 2.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo img {
+    width: 4.9375rem;
+    height: 4.9375rem;
+}
+
+header .logo h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header nav {
+    background: rgba(140, 0, 240, 0.50);
+    border-radius: 1.875rem;
+    padding: 1.19rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.88rem;
+}
+
+header nav ul li {
+    background-color: #8C00F0;
+    padding: 0.5rem;
+    border-radius: 0.9375rem;
+    cursor: pointer;
+}
+
+header nav ul li a {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.extrato__content {
+    width: 70%;
+    margin: 2.5rem auto 2rem auto;
+    border-radius: 0.3125rem;
+    border: 5px solid #8C00F0;
+    background: #0F0E10;
+    padding: 3.2rem 6.68rem;
+}
+
+.extrato__content .mensagem{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+
+.extrato__content .mensagem .bolha{
+    flex-grow: 1;
+    background: #2f2d31;
+    border: 1px solid #8C00F0;
+    border-radius: 3rem;
+    padding: 1rem 2.5rem;
+    color: #FFF;
+    font-family: Montserrat;
+}
+
+.extrato__content input{
+    width: 100%;
+    margin-top: 3rem;
+    background-color: #2F2B33;
+    border: 1px solid #8C00F0;
+    border-radius: 2rem;
+    padding: 0.8rem;
+}

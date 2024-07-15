@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #2F2B33;
+    font-family: Montserrat;
+}
+
+header {
+    padding: 1.6rem 2.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo img {
+    width: 4.9375rem;
+    height: 4.9375rem;
+}
+
+header .logo h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header nav {
+    background: rgba(140, 0, 240, 0.50);
+    border-radius: 1.875rem;
+    padding: 1.19rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.88rem;
+}
+
+header nav ul li {
+    background-color: #8C00F0;
+    padding: 0.5rem;
+    border-radius: 0.9375rem;
+}
+header nav ul li a{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos igualmente na linha */
+    align-items: center; /* Alinha os elementos ao topo da linha */
+    margin-top: 5rem;
+  }
+  
+  .title {
+    font-size: 24px; /* Tamanho da fonte do título */
+    font-weight: bold; /* Texto em negrito */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+    text-align: center;
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+  }
+  
+  .subtitle {
+    font-size: 18px; /* Tamanho da fonte do subtítulo */
+    color: #888; /* Cor do texto do subtítulo */
+    margin-top: 10px; /* Espaço acima do subtítulo */
+    text-align: center;
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+
+  .chart {
+    width: 40rem;
+    margin-right: 5rem; /* Espaço entre o gráfico e a legenda */
+  }
+  
+  .legend {
+    flex: 1; /* A legenda ocupa todo o espaço disponível */
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 17rem;
+}
+
+.legend ul {
+    list-style-type: none; /* Remove os bullets padrão da lista */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .legend li {
+    margin-bottom: 4rem; /* Espaço entre cada item da legenda */
+    text-transform: uppercase;
+}
+  
+  .legend-color {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}

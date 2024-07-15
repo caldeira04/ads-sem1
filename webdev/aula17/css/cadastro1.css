@@ -1,0 +1,122 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: #432b54;
+    font-family: Montserrat;
+    font-weight: bold;    
+    width: 1440px;
+    margin: auto;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cadastro1 {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40vw;
+    height: 60vh;
+
+}
+
+.cadastro1__header {
+    background-color: #6D5585;
+    border-radius: 0 500px 500px 0;
+    padding-left: 5vw;
+    padding-right: 30vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.cadastro1__header h1 {
+    color: #FFF;
+    font-size: 96px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.cadastro1__text h2 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: bold;
+    margin-left: 4vw;
+    width: 30vw;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40vw;
+    background-color: #6D5585;
+    border-radius: 500px 500px 0 0;
+    align-items: center;
+    padding-top: 15vh;
+}
+
+.forms {    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40vw;
+    height: 30vh;
+    background-color: #6D5585;
+    border-radius: 500px 500px 0 0;
+    align-items: center;
+
+}
+
+.form input {
+    margin-left: 2vw;
+    margin-right: 2vw   ;
+    border-radius: 500px;
+    background-color: #EED7FF;
+    margin-top: 1vh;
+    width: 30vw;
+    padding-left: 15px;
+    color: #432b54;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.form__input {
+    margin-top: 4vh;
+}
+
+.form h3{
+    color: #FFF;
+    font-size: 48px;
+}
+
+.form h4{
+    color: #FFF;
+    font-size: 36px;
+}
+
+.button {
+    background-color: #FFF;
+    border-radius: 500px;
+    text-decoration: none;
+}
+
+.button h5 {
+    text-decoration: none;
+    color: #8C00F0;
+    font-size: 52px;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+}
